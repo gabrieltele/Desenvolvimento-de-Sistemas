@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          class Cell{
+            constructor(Marca, modelo, armazenamento){
+
+            this.Marca = Marca;
+            this.modelo = modelo;
+            this.armazenamento = armazenamento;
+
+         }
+    
+         informacoesCell(){
+        return(this.Marca +  this.modelo + this.armazenamento);
+     } 
+    }
+
+    let Cell1 = new Cell("android",  " A12 ", 128);
+        console.log(Cell);
+        console.log(`A cell é: ${Cell1. informacoesCell()}`);
+
+
+    </script>
+</body>
+</html>

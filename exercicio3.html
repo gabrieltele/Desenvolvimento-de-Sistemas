@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+            class Aluno{
+            constructor(nome, nota1, nota2){
+
+            this.nome = nome;
+            this.nota1 = nota1;
+            this.nota2 = nota2;
+
+         }
+    
+         calculaMedia(){
+        return((this.nota1 + this.nota2 )/ 2).toFixed(1);
+     } 
+    }
+
+    let Aluno1 = new Aluno("nota1 e nota2",  10, 8);
+        console.log(Aluno);
+        console.log(`O Total da nota é: ${Aluno1.calculaMedia()}`) ;
+        </script>
+    </body>
+</html>

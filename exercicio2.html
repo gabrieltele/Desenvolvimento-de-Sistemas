@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+            class Casa{
+            constructor(endereco, numeroQuartos, area){
+
+            this.endereco = endereco;
+            this.numeroQuartos = numeroQuartos;
+            this.area = area;
+
+         }
+    
+        calculaCasa(){
+        return((this.endereco + this.numeroQuartos + this.area));
+     } 
+    }
+
+    let Casa1 = new Casa("rua do gabriel", ' 8 ' , 200);
+        console.log(Casa);
+        console.log(`As informações são: ${Casa1.calculaCasa()}`);
+        
+    
+
+
+        </script>
+    </body>
+</html>

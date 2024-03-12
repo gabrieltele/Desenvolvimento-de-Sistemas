@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          class Empresa{
+            constructor(nome, receitaAnual, despesaAnuis){
+
+            this.nome = nome;
+            this.receitaAnual = receitaAnual;
+            this.despesaAnuis = despesaAnuis;
+
+         }
+    
+         exibirRelatorio(){
+        return(this.nome +  this.receitaAnual + this.despesaAnuis);
+     }
+
+     calcularLucroAnual(){
+        return(this.receitaAnual - this.despesaAnuis);
+     }
+
+    }
+
+    let Empresa1 = new Empresa("Agua",  300 , 5);
+        console.log(`O Relatorio é: ${Empresa1.exibirRelatorio()}`);
+        console.log(`O lucro anual é: ${Empresa1.calcularLucroAnual()}`);
+
+
+    </script>
+</body>
+</html>

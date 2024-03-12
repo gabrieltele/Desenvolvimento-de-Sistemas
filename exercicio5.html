@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          class filme{
+            constructor(titulo, genero, duracao){
+
+            this.titulo = titulo;
+            this.genero = genero;
+            this.duracao = duracao;
+
+         }
+    
+         informacoesfilme(){
+        return(this.titulo +  this.genero + this.duracao);
+     } 
+    }
+
+    let filme1 = new filme("up Altas Aventuras",  " Animação ", 10);
+        console.log(filme);
+        console.log(`Os filme é: ${filme1.informacoesfilme()}`);
+
+
+    </script>
+</body>
+</html>
